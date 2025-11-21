@@ -1,0 +1,38 @@
+# --------------------------------------------
+# GitHub Linguist Overrides for LTSpice / PCB
+# --------------------------------------------
+
+# Treat LTSpice schematic and netlist files as text, not AGS Script
+*.asc linguist-language=SPICE
+*.asy linguist-language=SPICE
+*.net linguist-language=SPICE
+
+# Treat SPICE model libraries correctly
+*.lib linguist-language=SPICE
+*.sub linguist-language=SPICE
+*.subckt linguist-language=SPICE
+
+# KiCad / PCB / Gerber classification
+*.kicad_pcb linguist-language=Kicad
+*.sch linguist-language=Kicad
+*.drl linguist-language=Gerber
+*.gbr linguist-language=Gerber
+
+# STEP / 3D models
+*.step linguist-detectable=false
+*.stp linguist-detectable=false
+*.obj linguist-detectable=false
+
+# Images (do not count as repo language)
+*.png linguist-detectable=false
+*.jpg linguist-detectable=false
+*.jpeg linguist-detectable=false
+
+# Videos
+*.mp4 linguist-detectable=false
+*.mov linguist-detectable=false
+
+# Binary files
+*.zip linguist-detectable=false
+*.7z linguist-detectable=false
+*.bin linguist-detectable=false
