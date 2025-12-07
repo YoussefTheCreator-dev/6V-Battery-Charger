@@ -3,6 +3,7 @@ Designed and built a 6-V lead-acid battery charger based on a discrete series pa
 This project involved full LTSpice simulation, component sizing, PCB design, and hardware testing.
 
 🔧 Key features:
+
 • Zener reference voltage system  
 • BJT error amplifier  
 • Linear pass transistor with heatsink  
