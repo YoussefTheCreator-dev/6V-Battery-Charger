@@ -8,7 +8,7 @@ This project involved full LTSpice simulation, component sizing, PCB design, and
 • BJT error amplifier  
 • Linear pass transistor with heatsink  
 • Load testing (5–20 Ω)  
-• current limiter (<1A)  
+• Current limiter (<1A)  
 • Custom PCB + 3D model
 
 📂 Full project files (PCB, LTSpice, models, etc.):
